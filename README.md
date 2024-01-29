@@ -4,7 +4,7 @@ termux proot-distro
 ```
 -- Termux 에서 진행합니다.
 $ cd ~
-$ wget https://github.com/multitab2022/termux_proot-distro/ubuntu2204.sh
+$ wget https://raw.githubusercontent.com/multitab2022/termux_proot-distro/main/ubuntu2204.sh
 $ cp ubuntu2204.sh $PREFIX/etc/proot-distro/ubuntu2204.sh
 
 -- 이후 설치를 진행합니다.
