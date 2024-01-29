@@ -1,3 +1,5 @@
+https://multitab.tistory.com/266
+
 # termux_proot-distro
 termux proot-distro
 
