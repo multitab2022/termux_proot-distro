@@ -1,17 +1,19 @@
 https://multitab.tistory.com/266
 
+if ubuntu 22.04 LTS is required, it can be installed as follows.
+
 # termux_proot-distro
 termux proot-distro
 
 ```
--- Termux 에서 진행합니다.
+-- in Termux 
 $ cd ~
 $ wget https://raw.githubusercontent.com/multitab2022/termux_proot-distro/main/distro-plugins/ubuntu2204.sh
 $ cp ubuntu2204.sh $PREFIX/etc/proot-distro/ubuntu2204.sh
 
--- 이후 설치를 진행합니다.
+-- install
 $ proot-distro install ubuntu2204
 
--- 참고. 설치된 이미지를 지울 때
+-- remove
 $ proot-distro remove ubuntu2204
 ```
